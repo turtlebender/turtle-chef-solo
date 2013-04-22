@@ -1,0 +1,17 @@
+{
+  "janus": {
+    "users": ["trhowe"]
+  },
+  "run_list": [
+    "recipe[vim::default]",
+    "recipe[ubuntu::default]",
+    "recipe[annoyances::default]",
+    "recipe[java::default]",
+    "recipe[apt-s3::default]",
+    "recipe[narrativescience::pydata]",
+    "recipe[htop::default]",
+    "recipe[zlib::default]",
+    "recipe[xml::default]",
+    "recipe[janus::default]"
+  ]
+}
